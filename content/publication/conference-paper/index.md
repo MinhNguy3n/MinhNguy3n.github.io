@@ -1,22 +1,24 @@
 ---
-title: 'An example conference paper'
+title: 'EMG-based IoT System using Hand Gestures for Remote Control Applications'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Tuan Nguyen
+  - Tomi Westerlund
+
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2021-06-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2021-11-09T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,16 +26,18 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *2021 IEEE 7th World Forum on Internet of Things *
+publication_short: In *WF-IoT*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Electromyography (EMG) has been widely used for detecting a person's hand poses and remote control applications. However, the traditional EMG-based control systems have limitations such as short controlling range, and supporting limited number of devices. There is a need for a more advanced system that can deal with the limitations while maintaining a high quality of services such as high accuracy level and controlling complex devices. Hence, we present a real-time and remote control Internet-of-Things system using EMG signals together with motion-related signals such as acceleration and angular velocity. A user wearing the Myo-band at his/her arm can remotely control devices via eight different hand gestures. The entire system was implemented and tested via two use cases of home assistant and robot arm control. The results show that the presented system could achieve a high level of accuracy e.g., 100% accuracy for simple control and 90% accuracy for complex cases. This system can be a potential approach for smart home controlling and assisting disabled people.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This paper presents an IoT-based hand gesture control system utilizing a combination of EMG and motion-related signals from an inertial measurement unit (IMU).
 
 tags:
-  - Large Language Models
+  - Internet of Things
+  - EMG
+  - Robotic
 
 # Display this page in the Featured widget?
 featured: true
@@ -48,30 +52,20 @@ links:
   - type: pdf
     url: ""
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: https://github.com/MinhNguy3n/myo-mqtt-robot-application
   - type: slides
-    url: https://www.slideshare.net/
+    url: https://seafile.utu.fi/f/e3f7c8442e94411f81e2/
   - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: https://ieeexplore.ieee.org/document/9595957
   - type: video
-    url: https://youtube.com
+    url: 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'gesture-controlled Home Assistant with MYO armband'
   focal_point: ''
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
