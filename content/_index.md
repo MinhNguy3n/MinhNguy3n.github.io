@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2025-09-02
 type: landing
 
 design:
@@ -17,12 +17,12 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Nguyen_Minh_CV_10.08.2025.pdf
     design:
       css_class: dark
       # Avatar customization
       avatar:
-        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: medium #  Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
       background:
         color: black
@@ -36,14 +36,10 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Elevating Robotic and AI Capabilities through Acceleration'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        The main objective of this research project is to develop a new approach to designing hardware accelerators, focusing on heterogeneous multiprocessing platforms. The multiprocessing platform incorporates multiple hardware technologies, with diverse functionalities, while keeping the flexibility to be reprogrammed to tailor to specific use cases. The culmination of this research will be the design and development of computationally efficient adaptive computing methods and modules. By complying with the resource constraints at the edge, the design should also meet the target performance as metrics required in time-sensitive applications in automotive, security, and defense applications, for example.
     design:
       columns: '1'
   - block: collection
