@@ -79,6 +79,17 @@ education:
       Basic studies in Eletronics and Software engineering during 1st and 2nd year, advanced studies in Embedded System specialization in 3rd and 4th year.
 
 work:
+  - position: Teaching assistant
+    componany_name: University of Turku
+    company_url: 'https://www.utu.fi/en'
+    company_logo: 'brands/turku'
+    date_start: 2025-09-01
+    date_end: 
+    summary: |2-
+      Responsibilities include:
+      - Assist teacher for HDL System Design course, prepare lab sessions for students.
+      - Supervise Masters Thesis works related to hardware acceleration and embedded systems.
+      - Plan and organize content for new courses related to FPGA and hardware acceleration. 
   - position: Project Researcher,
     company_name: University of Turku
     company_url: 'https://www.utu.fi/en'
@@ -161,7 +172,7 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: |
-      In this Specialization, I built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learned how to make them better with strategies such as Dropout, BatchNorm, and Xavier/He initialization. Additionally, I mastered these theoretical concepts, learned their industry applications using Python and TensorFlow, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more. I am familiar with the capabilities and challenges of deep learning. Thus, I am ready to take the definitive step in the world of AI and participate in the development of leading-edge technology.
+      In this Specialization, I built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learned how to make them better with strategies such as Dropout, BatchNorm, and Xavier/He initialization. Additionally, I mastered these theoretical concepts, learned their industry applications using Python and TensorFlow, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more. I am familiar with the capabilities and challenges of deep learning. Thus, the skills taught from this specialization provide fundamental building blocks for the development of deep learning techniques.
   - title: MATLAB Onramp
     url: https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted
     certificate_url: https://matlabacademy.mathworks.com/progress/share/certificate.html?id=edb199ff-53fb-411c-bc59-47149b5613ad&
@@ -206,10 +217,23 @@ awards:
       - Program RISC-V assembly on the user level.
       - Implement your own programs runnable with RISC-V Linux.
       - Understand disassembly and debugging output.
-      
+  - title: 'Computer Architecture with an Industrial RISC-V Core [RVfpga]'
+    url: https://www.coursera.org/learn/computer-architecture-risc-v-fpga
+    certificate_url: https://courses.edx.org/certificates/ea57ed3190534ed29bfddf85f76b68aa
+    date: '2025-10-09'
+    awarder: Edx
+    icon: edx
+    summary: |
+      By the end of the course, I have learned:  
+      - How to work with RISC‑V computer architecture, and how to develop and compile Assembly & C codes on RVfpga SoC.
+      - How to use and extend the RVfpga SoC I/O and Peripherals: GPIO, Timers, Interrupt-driven I/O, Serial Buses (SPI, I2C, UART).
+      - Configuration of VeeR EH1 core microarchitecture and industry-standard benchmarks.
+      - Synthesis, Implementation of the RVFpga on Nexys A7 FPGA board using Vivado toolchain.
+      - Execution of program on the FPGA, and, Simulation of program using Whisper instruction set simulator: Verilator-based ViDBo; RVfpga-Pipeline; and RVfpga-Trace. 
+
 ---
 
 ## About Me
 
-Minh Nguyen is a PhD researcher at University of Turku, currently conducting reseach in hardware accelerator architecture, embedded AI, and Embedded Systems for robotics. At the end of during his Bachelor degree, he contributed to a IoT project, where EMG-driven armband is utilzed for manipulating the joints of a MeArm robot . One of his early acemic work was submitted to the IEEE IoT 2021 Conference (accepted for notable undergraduate contribution). During 2022, he invested time for dWveloping an <em>Intelligent</em> Valve at Oras Oy (as summer trainee), where a classification model is designed for detecting outliers sensor data (e.g., leakages) near the valve. This work is available (in solictied draft version) [here](https://www.researchgate.net/publication/360963340_Leakage_detection_in_water_supply_pipelines_using_machine_learning). Since 2023, he joined TIERS group, and proposed his doctoral topic, which focuses on exploring hardware/software co-design for accelerating AI applications.
+Minh Nguyen is a PhD researcher at University of Turku, currently conducting reseach in hardware accelerator architecture, embedded AI, and Embedded Systems for robotics. At the end of during his Bachelor degree, he contributed to a IoT project, where EMG-driven armband is utilzed for manipulating the joints of a MeArm robot . One of his early academic work was submitted to the IEEE IoT 2021 Conference (accepted for notable undergraduate contribution). During 2022, he invested time for developing an Intelligent Valve at Oras Oy (as summer trainee), where a classification model is designed for detecting outliers sensor data (e.g., leakages) near the valve. This work is available (in solictied draft version) [here](https://www.researchgate.net/publication/360963340_Leakage_detection_in_water_supply_pipelines_using_machine_learning). Since 2023, he joined TIERS group, and proposed his doctoral topic, which focuses on exploring hardware/software co-design for accelerating AI applications.
 
